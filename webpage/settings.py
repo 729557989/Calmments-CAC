@@ -22,7 +22,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'x)je8c0e7a+%bh-7u42z_$gqw@7!v!pu!4lke^j7^%j4-#yxg2'
+SECRET_KEY = '' # your django API key goes here
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
