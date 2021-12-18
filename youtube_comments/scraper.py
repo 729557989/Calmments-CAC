@@ -3,7 +3,7 @@ import pandas as pd
 import copy as cp
 # Scraper scrapes from newest comments to oldest
 
-api_key = "AIzaSyAP5qnKJJ8TjzkAmIVuHr3h5k4JeOeQwKY"
+api_key = "" # your google youtube comment API key goes here
 youtube = build('youtube', 'v3', developerKey=api_key)
 
 def scraper(link, df=pd.DataFrame(), next_page_token=None, total=100):
